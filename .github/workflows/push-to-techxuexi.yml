@@ -1,8 +1,7 @@
 name: push-to-techxuexi
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
+
 jobs:
   push-to-techxuexi:
     runs-on: ubuntu-18.04
